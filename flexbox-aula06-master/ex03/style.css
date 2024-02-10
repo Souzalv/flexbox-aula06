@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    background-color: #f8ece4 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    display: flex;
+    margin-top: 100px;
+    
+    
+    
+}
+    
+
+.whitebox{
+    background-color: white;
+    height: 500px;
+    width: 325px;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    margin: 2px;
+
+}
+
+.perfume, img{
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%
+
+}
+
+.perfume{
+    margin: 2px;
+
+}
+
+.subtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: gray;
+    font-size: 13px;
+    position: relative;
+    top: 20px;
+    left: 25px;
+
+}
+
+.title{
+    font-family: 'Fraunces', serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    padding: 1px;
+    font-weight: bolder;
+    color: Dark grayish blue: hsl(228, 12%, 48%);
+}
+
+.text{
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 25px;
+    
+    line-height: 1.7;
+}
+
+.price1{
+    font-family: 'Fraunces', serif;
+    position: relative;
+    left: 25px;
+    font-size: 35px;
+    bottom: 10px;
+    color: #40846c;
+
+}
+
+.price2{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 14px;
+    position: relative;
+    left: 180px;
+    bottom: 73px;
+    text-decoration: line-through;
+    color: #868992;
+}
+
+.button{
+    background-color: #40846c;
+    position: relative;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    bottom: 50px;
+    left: 30px;
+    
+}
+
+.button img{
+    position: relative;
+    top: 17px;
+    left: 66px;
+
+}
+
+.button p{
+    font-family: 'Montserrat', sans-serif; 
+    color: white;
+    position: relative;
+    left: 90px;
+    bottom: 20px;
+}
+
+
